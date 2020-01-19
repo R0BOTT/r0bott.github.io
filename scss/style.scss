@@ -1,0 +1,21 @@
+@import 'libs';
+@import 'vars';
+@import 'header';
+@import 'main';
+@import 'footer';
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    ::selection {
+       background-color: $blue; 
+       color: #fff;
+    }
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+@import 'media';
